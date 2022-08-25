@@ -23,7 +23,7 @@ const Lobby = ({ joinRoom }) => {
         />
       </Form.Group>
       <Button variant="success" type="submit" disabled={!user || !room}>
-        Cansu
+        Join
       </Button>
     </Form>
   );
