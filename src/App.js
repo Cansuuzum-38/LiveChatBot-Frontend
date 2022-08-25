@@ -56,9 +56,6 @@ const App = () => {
       console.log(e);
     }
   };
-  function clickF(w) {
-    console.log("basıldı");
-  }
 
   return (
     <div className="app">
@@ -74,7 +71,6 @@ const App = () => {
           />
         )}
       </div>
-      <button onClick={clickF}>İletişime Geç </button>
     </div>
   );
 };
